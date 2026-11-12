@@ -1,0 +1,30 @@
+[
+  {
+    "city": "New York",
+    "weather_condition": "Clouds",
+    "order_id": "1001",
+    "customer": "Alice Smith",
+    "status": "On Schedule"
+  },
+  {
+    "city": "Mumbai",
+    "weather_condition": "Smoke",
+    "order_id": "1002",
+    "customer": "Bob Jones",
+    "status": "On Schedule"
+  },
+  {
+    "city": "London",
+    "weather_condition": "Clear",
+    "order_id": "1003",
+    "customer": "Charlie Green",
+    "status": "On Schedule"
+  },
+  {
+    "city": "InvalidCity123",
+    "error": "City not found (HTTP 404)",
+    "order_id": "1004",
+    "customer": "InvalidCity123",
+    "status": "Failed - Invalid City"
+  }
+]
